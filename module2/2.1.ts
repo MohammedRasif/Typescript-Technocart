@@ -18,6 +18,20 @@
     }
 
 
+    const result1 = kgTOgm(1000) as number;
+    const result2 = kgTOgm("1000") 
+
+    type CustomError = {
+        message:string
+    }
+
+    try{
+
+    }catch(error){
+        console.log((error as CustomError).message);
+    }
+
+
 
     //
 }
